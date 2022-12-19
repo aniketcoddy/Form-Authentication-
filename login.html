@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet"  media="screen and (max-width:1455px)" href="css/phone.css">
+</head>
+
+<!-- this is the navbar of the page -->
+
+<body>
+    <div>
+        <ul class="ulist">
+            <li class="cookbook"><a>Cookbook</a></li>
+            <li class="home"><a>Home</a></li>
+            <li class="about"><a>About</a></li>
+            <li class="contact"><a>Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- this is the div for middle content-->
+
+    <div class="middle">
+
+        <!-- this is the  div for (image + create account heading + signup to get started)-->
+
+        <div class="image">
+            <h1 class="create">Create Account</h1>
+            <h3 class="signupto">Sign Up to get started.
+            </h3>
+            <img src="img/undraw_Chef_cu0r 1.png">
+        </div>
+
+        <!-- this is the div for the registrationf from and googgle login and signin option-->
+        <div>
+            <div class="fdesign">
+                <form ation="\register\signup.php" name="myForm" onsubmit="return validate()" method="post">
+                    <div class="formdesign" id="name">
+                        <!-- the form starts-->
+                        <input type="text " name="fname" placeholder="Name" class="name" required><b><span
+                                class="formerror"></span></b>
+                    </div>
+
+                    <div class="formdesign" id="phone">
+                        <input type="phone" name="fphone" placeholder="Phone" class="phone" required><b><span
+                                class="formerror"></span></b>
+                    </div>
+                    <div class="formdesign" id="email">
+                        <input type="email" name="femail" placeholder="Email" class="email" required><b><span class="formerror">
+                            </span></b>
+                    </div>
+
+                    <div class="formdesign" id="pass">
+                        <input type="password" name="fpass" placeholder="Password" class="password" required><b><span
+                                class="formerror"></span></b><button class="click" type="button" onclick="myFunction()">Show me</button>
+                    </div>
+
+                    <div class="formdesign" id="cpass">
+                        <input type="password" name="fcpass" placeholder="Confirm Password" class="cpassword" required><b><span
+                                class="formerror"></span></b>
+                    </div>
+
+                    <div class="fbutton">
+                        <button class="continue" type="submit" value="submit">Continue</button>
+
+                        <div>
+                            <h1 class="continue2">
+                                or continue with
+                            </h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div >
+                            <a href="https//google.com"><img class="google" src="img/google id.png"><a>
+                        </div>
+                        <div >
+                            <h2 class="already">Already have an account? <a href="#" class="sign"> Sign
+                                    In </a></h2>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+
+
+
+   
+</body>
+
+
+</html>

@@ -1,0 +1,303 @@
+body {
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ulist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    word-spacing: 2px;
+}
+
+.cookbook {
+    padding: 7px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: Roboto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 5px 21px 3px -54px;
+}
+
+.cookbook:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.home {
+    padding: 10px;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: Roboto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.home:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about {
+    padding: 11px;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: Roboto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.about:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 4px;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: Roboto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: -329px
+}
+
+.contact:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.middle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+
+
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 717px;
+    height: 445.83px;
+    float: right;
+    margin: -2px;
+    margin-top: -0.75rem;
+}
+
+.create {
+    font-family: Roboto;
+    font-size: 46px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: #2F2E41;
+    margin: 59px 4px -2px 69px;
+}
+
+.signupto {
+    font-family: Roboto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    color: #282020;
+    margin: 9px 5px 1px 71px;
+}
+
+
+.fdesign {
+    float: left;
+    display: flex;
+    margin-left: 65px;
+    margin-top: 13.5rem;
+}
+
+.name {
+    display: flex;
+    padding: 11px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #AFA9A9;
+    width: 473px;
+    height: 85px;
+    margin: 14px;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.phone {
+    display: flex;
+    padding: 11px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #AFA9A9;
+    width: 473px;
+    height: 85px;
+    margin: 14px;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.email {
+    display: flex;
+    padding: 11px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #AFA9A9;
+    width: 473px;
+    height: 85px;
+    margin: 14px;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.password {
+    display: flex;
+    padding: 11px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #AFA9A9;
+    width: 473px;
+    height: 85px;
+    margin: 14px;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.cpassword {
+    display: flex;
+    padding: 11px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid #AFA9A9;
+    width: 473px;
+    height: 85px;
+    margin: 0px 16px 14px;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.fbutton {
+    display: flex;
+    margin: 14px;
+    flex-direction: column;
+}
+
+.continue {
+    width: 473px;
+    height: 85px;
+    background-color: rgba(108, 99, 255, 0.5);
+    color: white;
+    border: 0.5px solid rgba(108, 99, 255, 0.5);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.continue:hover {
+    background-color: rgba(19, 11, 158, 0.5);
+    cursor: pointer;
+}
+
+.continue2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: small;
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 11.5rem;
+    padding-top: 0.25rem;
+    font-weight: normal;
+}
+
+.google {
+    position: relative;
+    width: 71px;
+    height: 71px;
+    float: right;
+    margin-top: 0rem;
+    margin-right: 204px;
+}
+
+.already {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 6.5rem;
+    padding-top: 0.25rem;
+    font-weight: normal;
+}
+
+
+.sign {
+    text-decoration: #256CD7;
+    padding: 1px;
+}
+
+.sign:hover {
+    text-decoration: underline;
+}
+
+.name:hover {
+    width: 386px;
+    height: 56px;
+}
+
+.email:hover {
+    width: 386px;
+    height: 56px;
+}
+
+.phone:hover {
+    width: 386px;
+    height: 56px;
+}
+
+.password:hover {
+    width: 386px;
+    height: 56px;
+}
+
+.cpassword:hover {
+    width: 386px;
+    height: 56px;
+}
+
+.click {
+    position: relative;
+    margin: -86px 3px 4px 369px;
+    background-color: rgba(217, 217, 217, 0.5);
+    border: none;
+    font-family: Roboto;
+    height: 61px;
+    width: 106px;
+    border-radius: 3px;
+}
+
+.click:hover {
+    background-color: rgba(8, 8, 8, 0.5);
+    color: white;
+    cursor: pointer;
+}
